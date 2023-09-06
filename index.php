@@ -104,7 +104,7 @@ while($j<$i)
 		{
 			if($j==0)
 			{
-				$clase.='"NULL",';
+				$clase.='NULL,';
 			}else{
 			$clase.="\"'.\$v$j.'\",";	
 			}
